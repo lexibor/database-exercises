@@ -13,5 +13,5 @@ DELETE from albums
 WHERE genre = 'Disco';
 
 DELETE from albums
-WHERE name = 'Whitney Houston';
+WHERE name LIKE '%whitney houston%';
 
