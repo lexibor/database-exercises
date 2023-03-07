@@ -5,6 +5,8 @@ TRUNCATE albums;
 show tables;
 DESCRIBE albums;
 
+SHOW INDEX FROM albums;
+
 INSERT INTO albums (artist, name, release_date, genre, sales) VALUES
 ('Michael Jackson', 'Thriller', 1982, 'Pop/Rock/R&B', 47.3),
 ('AC/DC', 'Back in Black', 1980, 'Hard rock', 26.1),
@@ -39,3 +41,11 @@ INSERT INTO albums (artist, name, release_date, genre, sales) VALUES
 
 
 SELECT * FROM albums;
+
+
+
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES
+('Michael Jackson', 'Thriller', 1982, 'Pop/Rock/R&B', 47.3);
+
+INSERT INTO albums (artist, name, release_date, genre, sales) VALUES
+('Michael Jackson', 'This Is It', 2009, 'Pop/Rock/R&B', 5);
